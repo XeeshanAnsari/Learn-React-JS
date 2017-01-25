@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "../node_modules/.bin/babel hello-world-jsx/jsx/script.jsx -o hello-world-jsx/js/script.js -w"
+    "build-hello-world-jsx": "../node_modules/.bin/babel hello-world-jsx/jsx/script.jsx -o hello-world-jsx/js/script.js -w",
+    "build-hello-world-class": "../node_modules/.bin/babel hello-world-class/jsx/script.jsx -o hello-world-class/js/script.js -w",
+    "build-hello-world-props": "../node_modules/.bin/babel hello-world-props/jsx/script.jsx -o hello-world-props/js/script.js -w"
   },
   "keywords": [
     "reactjs"
