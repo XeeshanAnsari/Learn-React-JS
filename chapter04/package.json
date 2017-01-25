@@ -6,7 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build-clock": "../node_modules/.bin/babel clock/jsx/script.jsx -o clock/js/script.js -w",
-    "build-clock": "../node_modules/.bin/babel clock/jsx/clock.jsx -o clock/js/clock.js -w"
+    "build-clock": "../node_modules/.bin/babel clock/jsx/clock.jsx -o clock/js/clock.js -w",
+    "build-analog-digital": "../node_modules/.bin/babel analog-digital/jsx/analog-display.jsx -o analog-digital/js/analog-display.js -w",
+    "build-analog-digital": "../node_modules/.bin/babel analog-digital/jsx/digital-display.jsx -o analog-digital/js/digital-display.js -w"
   },
   "keywords": [
     "react.js"
