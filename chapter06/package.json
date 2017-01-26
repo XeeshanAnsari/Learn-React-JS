@@ -5,7 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build-onclick": "../node_modules/.bin/babel onclick/jsx/script.jsx -o onclick/js/script.js -w"
+    "build-onclick": "../node_modules/.bin/babel onclick/jsx/script.jsx -o onclick/js/script.js -w",
+    "build-onclick-props": "../node_modules/.bin/babel onclick-props/jsx/script.jsx -o onclick-props/js/script.js -w",
+    "build-onclick-props": "../node_modules/.bin/babel onclick-props/jsx/click-button.jsx -o onclick-props/js/click-button.js -w",
+    "build-onclick-props": "../node_modules/.bin/babel onclick-props/jsx/content.jsx -o onclick-props/js/content.js -w"
   },
   "keywords": [
     "reactjs"
